@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    margin: 0px 150px;
+    padding: 10px 0px;
+    display: flex;
+    border-bottom: 1px solid white;
+    
+}
+nav p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    letter-spacing: 8px;
+    
+}
+.navWrap {
+    width: 1000px;
+    text-align: right;
+    padding: 15px 0px 15px
+    
+}
+header {
+    margin: 0px 150px   ;
+}
+
+#enterEmail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 100px 0px;
+    
+    
+}
+input {
+    padding: 25px 170px;
+    font-size: 26px;
+    color:  #686868;
+    font-weight: 300;
+    border-radius: 10px;
+   
+}
+.firstSection {
+    margin: 150px 150px;
+    display: inline-flex;
+    
+}
+.secondSection {
+    margin: 100px 150px 0px 150px;
+    display: inline-flex;
+
+}
+.thirdSection  {
+    margin: 150px 150px 100px 150px;
+    display: inline-flex;
+}
+.fourthSection {
+    margin: 150px 150px 100px 150px;
+    display: inline-flex;
+}
+.fifthSection {
+    margin: 150px 150px 100px 150px;
+    display: inline-flex;
+}
+
+#CircleImg {
+    margin-top: 150px;
+    margin-bottom: 30px;
+
+}
+.sectionContainerLeft {
+   width: 40%;
+
+}
+.sectionContainerRight {
+    width: 40%;
+    margin-left: 130px;
+ 
+ }
+
+ .creditCard {
+     box-shadow: 2px 40px 40px lightgrey;
+ }
+#bgColorTop {
+  
+    height: 100vh;
+    background: linear-gradient(#6fc5dc, #e87c80);
+}
+#bgColorSecondSection {
+    background: linear-gradient( #F1FAFD, white);
+    
+    border-top: 1px solid #F1FAFD;
+}
+#bgColorThirdSection {
+    background: #bde6f8;
+}
+#bgColorFifthSection {
+    background: linear-gradient( #F1FAFD, white);
+}
+#bgColorFooter {
+    background: #28304F;
+}
+
+a {
+    text-decoration: none; 
+    padding-left: 45px; 
+    text-transform: uppercase;
+    color: white; 
+    font-size:12px; 
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 100;
+    
+    margin-top: 100px;
+}
+h2 {
+    font-size: 30px;
+    color: #505360;
+    font-weight: 300;
+}
+h3  {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: 100;
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+p {
+    color: #505360;
+    font-weight: 300;
+ }
+footer p, footer a {
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size:12px;
+}
+footer {
+    margin: 0px 150px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 100px 0px 70px 0px;
+}
+
+.footerLinks a {
+    color: #505360;
+    text-transform: none;
+}
+
+    
+    
+    
